@@ -1,0 +1,61 @@
+<config>
+    <api2>
+        <resource_groups>
+            <delivrawebhook translate="title" module="Delivra_DelivraWebHook">
+                <title>Integration API</title>
+                <sort_order>10</sort_order>
+            </delivrawebhook>
+        </resource_groups>
+        <resources>
+            <integration translate="title" module="Delivra_DelivraWebHook">
+                <group>delivrawebhook_integration</group>
+                <model>delivrawebhook/api2_integration</model>
+                <title>Delivra Integration</title>
+                <sort_order>10</sort_order>
+                <privileges>
+                    <admin>
+                        <create>1</create>
+                    </admin>
+                </privileges>
+                <attributes>
+                    <list_name>List name</list_name>
+                    <api_key>API Key</api_key>
+                    <url>URL</url>
+                </attributes>
+                <routes>
+                    <route_entity>
+                        <route>/delivra/integration</route>
+                        <action_type>entity</action_type>
+                    </route_entity>
+                    <route_delete>
+                        <route>/delivra/integration/:id</route>
+                        <action_type>entity</action_type>
+                    </route_delete>
+                </routes>
+                <versions>1</versions>
+            </integration>
+            <category translate="title" module="Delivra_DelivraWebHook">
+                <group>delivrawebhook_category</group>
+                <model>delivrawebhook/api2_category</model>
+                <title>Delivra Category</title>
+                <sort_order>10</sort_order>
+                <privileges>
+                    <admin>
+                        <create>1</create>
+                    </admin>
+                </privileges>
+                <attributes>
+                    <entity_id>Category Id</entity_id>
+                    <category_name>Category Name</category_name>
+                </attributes>
+                <routes>
+                    <route_collection>
+                        <route>/delivra/category</route>
+                        <action_type>collection</action_type>
+                    </route_collection>
+                </routes>
+                <versions>1</versions>
+            </category>
+        </resources>
+    </api2>
+</config>

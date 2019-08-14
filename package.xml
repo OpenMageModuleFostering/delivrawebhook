@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>DelivraWebhook</name>
+    <version>0.0.9</version>
+    <stability>stable</stability>
+    <license>MIT</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Increase email marketing ROI. Send personal, just-in-time emails, reward customers, and track purchases.</summary>
+    <description>Use Delivra for email marketing to promote your Magento store and increase sales. Delivra gives you everything you need to send targeted, personalized emails to your customers and track ROI.  You can even automate sending emails based on customer action, inaction, or time. </description>
+    <notes>Initial release.</notes>
+    <authors><author><name>Delivra</name><user>Delivra</user><email>dev@delivra.com</email></author></authors>
+    <date>2016-06-17</date>
+    <time>13:40:29</time>
+    <contents><target name="mageetc"><dir><dir name="modules"><file name="Delivra_DelivraWebHook.xml" hash="0ef3c7d0a7c75f7780d3f685fb676f25"/></dir></dir></target><target name="magecommunity"><dir><dir name="Delivra"><dir name="DelivraWebHook"><dir name="Block"><dir name="Adminhtml"><dir name="Form"><dir name="Field"><file name="Lists.php" hash="fcba602339ea947270283c8a844f4346"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="9dc1723ba579337f7754441670d83ea7"/><file name="Lists.php" hash="122ab5ee9e0182c01850221052614785"/></dir><dir name="Model"><dir name="Api2"><dir name="Category"><dir name="Rest"><dir name="Admin"><file name="V1.php" hash="d33675bd9f419a80f6dcdc03e44cc561"/></dir></dir></dir><file name="Category.php" hash="cef11dc127f1feb98aeb0c26b75e5d43"/><dir name="Integration"><dir name="Rest"><dir name="Admin"><file name="V1.php" hash="ec36c7227fb5c82b8e15159d8e962b8e"/></dir></dir></dir><file name="Integration.php" hash="a6747c35bce76017f3589e5dd66cf1f7"/></dir><file name="Cart.php" hash="63bf229a3af9dec7a5a696238b098029"/><file name="Observer.php" hash="dba5c6842d3496cc73d9eba4a6bc0652"/><file name="Queue.php" hash="6f86cad61ec6a7b25df5ce909197ef1e"/><dir name="Resource"><file name="Cart.php" hash="4052b8b193d954a41bc05fcbe3e7922a"/><dir name="Queue"><file name="Collection.php" hash="d5ef10f453ebb06dd72b2503b8b6b610"/></dir><file name="Queue.php" hash="86c5944bf231fb34b620fed366691c12"/></dir><dir name="System"><dir name="Config"><dir name="Backend"><file name="Lists.php" hash="af4168ec071e89d8577da19d64d4b171"/></dir></dir></dir></dir><dir name="controllers"><file name="QuoteController.php" hash="da565ab21387ef01b866140898c05291"/></dir><dir name="etc"><file name="api2.xml" hash="5c8624af953b42c15f68643f8ae4aa0a"/><file name="config.xml" hash="369835bd184a2b0d679169fb851340bc"/><file name="system.xml" hash="10a65afc831122b61fda63b692e74ba5"/></dir><dir name="sql"><dir name="delivrawebhook_setup"><file name="install-0.0.7.php" hash="516788464c500213b91af6783fccc163"/><file name="upgrade-0.0.7-0.0.8.php" hash="a8824731d387f948c67a41dd0f52e941"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

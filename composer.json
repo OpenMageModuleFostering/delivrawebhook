@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/DelivraWebhook",
+    "type": "magento-module",
+    "license": "MIT",
+    "homepage": "",
+    "description": "Increase email marketing ROI. Send personal, just-in-time emails, reward customers, and track purchases.",
+    "authors": [
+    {
+        "name": "Delivra",
+        "email": "dev@delivra.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
